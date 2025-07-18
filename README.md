@@ -1,2 +1,2 @@
 # BCMC_FTC
-A PPO-based RL agent to optimize PID controller gains for drone trajectory tracking. 
+We're implementing a PPO-based RL agent to optimize PID controller gains for drone trajectory tracking. The agent learns from experience stored in a prioritized memory buffer, using state estimates from a Kalman filter. It adjusts PID gains dynamically to maintain tracking performance despite actuator faults, with rewards based on tracking accuracy. The system combines model-free RL with traditional control for robust fault-tolerant performance.
